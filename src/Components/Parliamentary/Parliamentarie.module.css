@@ -1,0 +1,134 @@
+
+  .titleParliamentary{
+    position: relative;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    padding: 70px 0 0 0;
+}
+figure {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+figure .parliamentariesImg{
+  width: auto;
+  max-height: 140px;
+  border-radius: 100%;
+}
+
+.parliamentariesTitle {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.parliamentariesCard {
+  margin-bottom: 1.5em;
+}
+
+.iconView {
+  cursor:pointer;
+  background-color: #3471a7;
+  color: #fff;
+  font-size: 25px;
+  padding: 4px;
+  border-radius: 6px;
+}
+.iconEdit{
+  cursor:pointer;
+  background-color: #1eb13d;
+  color: #fff;
+  font-size: 25px;
+  padding: 4px;
+  border-radius: 6px;
+}
+.iconTrash{
+  cursor:pointer;
+  background-color:#dc0000;
+  color: #fff;
+  font-size: 25px;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.timeLineParli p{
+  font-size: 13px;
+    font-weight: bold;
+}
+.timeLineParli span{
+  font-size: 11px;
+    font-weight: 100;
+}
+.error {
+  color: #d43d3d;
+  font-size: 42px;
+  font-weight: bold;
+}
+.errorDesc{
+  color: #d43d3d;
+  margin: 20px 0;
+  font-size: 32px;
+  text-align: center;
+}
+.errorDesc span {
+  color: #f6af0c;
+  font-size: 25px;
+}
+.errorImg{
+  width: 100%;
+  height: auto;
+}
+.errorArrow{
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+.buttonCad {
+  text-align: center;
+  white-space: nowrap;
+  display: block;
+  box-shadow: 0 0 0 0 rgba(246, 175, 12, 0.7);
+  background-color: #f6af0c;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  color: #ffffff;
+  transition: all 300ms ease-in-out;
+}
+
+.buttonCad:hover{
+  color:#fff
+}
+
+.loaderGif{
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  text-align: center;
+}
+
+#checkSuspicions{
+  min-width: 17px;
+  min-height: 17px;
+  margin-right: 5px;
+  top: 3px;
+  position: relative;
+}
