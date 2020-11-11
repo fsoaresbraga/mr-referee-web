@@ -6,7 +6,6 @@ import { Home } from './Components/Home';
 import Parliamentaries from './Components/Parliamentary/Parliamentaries';
 import Parliamentarie from './Components/Parliamentary/Parliamentarie';
 
-import './styles/App.css'
 export const App = () => {
     return (
         <>
@@ -16,8 +15,6 @@ export const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/parliamentaries" element={<Parliamentaries />} />
                 <Route path="/:id" element={<Parliamentarie />} />
-              
-
             </Routes>
             <Footer />
         </BrowserRouter>
